@@ -6,6 +6,7 @@ import Imagem02 from '../../img/mateus02.png'
 import Imagem03 from '../../img/logo-pax.png'
 import { saveAs } from 'file-saver';
 import Imagem04 from '../../img/logo-boi.png'
+import Caixa from '../../img/caixa.png'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -35,6 +36,7 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import Imagemrodape from '../../img/mateus03.png'
 import Curriculo from '../../img/curriculo.pdf'
 import MenuIcon from '@mui/icons-material/Menu';
+import { SiTailwindcss } from "react-icons/si";
 import 'animate.css';
 
 export default function Home() {
@@ -110,8 +112,8 @@ export default function Home() {
 
       </div>
 
-      <div className="container-header ">
-        <div id="home" className="titulo-header animate__fadeInLeft">
+      <div className="container-header">
+        <div id="home" className="animate__fadeInLeft titulo-header">
           <p>BEM VINDO!</p>
           <h1>Mateus Pitta</h1>
           <h2>Front-End</h2>
@@ -181,7 +183,7 @@ export default function Home() {
         </div>
       </div>
       <div className='minha-experiencia' id="certificacoes">
-        <div className='linha-do-tempo animate__fadeIn'>
+        <div className='animate__fadeIn linha-do-tempo'>
           <h1>Habilidades</h1>
           <div className='icones-habilidades'>
             <div className='texto-icone-habilidade'>
@@ -291,8 +293,8 @@ export default function Home() {
       </div>
       <div className='site-desenvolvidos' id="sites">
         <p>Sites Desenvolvidos</p>
-        <div className='tipos-site '>
-          <div className='tamanho-site-aide '>
+        <div className='tipos-site'>
+          <div className='tamanho-site-aide'>
             <a href="https://www.aidesolucoes.com.br">ACESSAR</a>
           </div>
           <div className='tamanho-site-usina'>
@@ -366,6 +368,24 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className='conteudo-projeto'>
+            <div className='pax2'>
+              <div className='title-img'>
+                <img style={{borderRadius:'5px'}} src={Caixa} ></img>
+                <h2>Controle de Estoque</h2>
+              </div>
+              <p>Sistemas que gerencia o estoque, lista de compras, entradas, saídas, gerenciamento de custo. Execelente sistema para restaurantes e lanchonetes, mobile e desktop. </p>
+              <p>Tecnologias que utilizei:</p>
+              <div className='icones-pax'>
+              <FaReact size={35} />
+                <FaHtml5 size={35} />
+                <FaCss3Alt size={35} />
+                <FaFigma size={35} />
+                <SiAxios size={35} />
+                <SiTailwindcss size={35}/>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div className='rodape' >
@@ -373,7 +393,7 @@ export default function Home() {
           <h1>Contato</h1>
           <div className='whatsapp' id="contato">
             <WhatsAppIcon />
-            <a href="https://api.whatsapp.com/send?phone=5567999282807&text=ol%C3%A1%20vi%20o%20seu%20portf%C3%B3lio!"><h4>(67) 999928-2807</h4></a>
+            <a href="https://api.whatsapp.com/send?phone=5567998592808&text=ol%C3%A1%20vi%20o%20seu%20portf%C3%B3lio!"><h4>(67) 99859-2808</h4></a>
           </div>
           <div className='whatsapp'>
             <MailOutlineIcon />
@@ -384,7 +404,7 @@ export default function Home() {
             <a href='https://www.instagram.com/mateuskronbauerr/'><h4>@mateuskronbauerr</h4></a>
           </div>
           <h2>Envie uma mensagem para mim!</h2>
-          <button> <a href="https://wa.me/5567999282807?text=Ol%C3%A1+vi+o+seu+portif%C3%B3lio%21">MENSAGEM</a></button>
+          <button> <a href="https://wa.me/5567998592808?text=Ol%C3%A1+vi+o+seu+portif%C3%B3lio%21">MENSAGEM</a></button>
         </div>
         <div className='second-div'>
           <img src={Imagemrodape}></img>
