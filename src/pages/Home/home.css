@@ -511,7 +511,7 @@ li {
   display: flex;
   align-items: center;
   gap: 50px;
-  margin-left: 100px;
+  padding: 30px;
   justify-content: center;
   padding-bottom: 0px;
 }
@@ -528,6 +528,19 @@ li {
   justify-content: center;
 }
 
+.tamanho-site-chopp {
+  width: 25%;
+  padding: 10px;
+  background-image: url(../../img/chopp.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .site-desenvolvidos animate__fadeInUp{
   --animate-duration: 2s;
 }
@@ -536,9 +549,23 @@ li {
   display: none;
 }
 
+.tamanho-site-chopp a {
+  background-color: white;
+  margin-top: 450px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
 .tamanho-site-aide a {
   background-color: white;
-  margin-top: 550px;
+  margin-top: 450px;
   padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
@@ -563,7 +590,7 @@ li {
 }
 
 .tamanho-site-usina a {
-  margin-top: 550px;
+  margin-top: 450px;
   background-color: white;
   padding: 10px;
   padding-left: 30px;
@@ -589,7 +616,7 @@ li {
 }
 
 .tamanho-site-easy a {
-  margin-top: 550px;
+  margin-top: 450px;
   background-color: white;
   padding: 10px;
   padding-left: 30px;
@@ -607,7 +634,6 @@ li {
   flex-direction: column;
   width: 100%;
   color: white;
-  margin-top: 100px;
   background-image: url(../../img/carreira.png);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -1090,6 +1116,14 @@ li {
     background-image: url(../../img/experiencia-mobile.png);
     background-repeat: no-repeat;
     background-size: 100%;
+  }
+
+  .tamanho-site-chopp a {
+    margin-top: 430px;
+  }
+
+  .tamanho-site-chopp{
+    width: 80%;
   }
 
   .tamanho-site-aide a {

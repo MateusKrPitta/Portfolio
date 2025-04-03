@@ -146,10 +146,7 @@ export default function Home() {
           <h5>SOBRE MIM</h5>
           <h1>Quem sou eu?</h1>
           <div className='texto-sobre-mim'>
-            <TypingEffect text="Meu nome é Mateus Pitta, sou desenvolvedor Front-End, com solidas habilidades
-            em linguagem de programação. Meu principal objetivo é crescer na área de tecnologia,
-            trazendo diversas soluções tecnologicas, tanto para a sociedade como para diversas empresas. Gosto de trabalhar em equipe, me comunicar bastante, definir metas ou objetivos,
-            colaborar para o crescimento da empresa ... "      blink={true} />
+            <TypingEffect text="Formado em Engenharia de Software, atualmente, atuo como desenvolvedor web especializado em Front-End, com foco em criar sistemas escaláveis e centrados na usabilidade. Tenho experiência no desenvolvimento de soluções para agendamentos clínicos, cobranças, gestão financeira, relatórios e prospecção de clientes, utilizando diversas tecnologias e metodologias ágeis. Além disso, no meu tempo livre, atendo empresas como freelance, desenvolvendo land-pages e sistemas de gestão. Ao longo da minha trajetória, adquiri habilidades fundamentais para identificar e solucionar as necessidades de usuários e clientes de forma eficiente e assertiva. Ocupo o cargo de Desenvolvedor Web na empresa Pax Primavera ... "      blink={true} />
           </div>
 
           <div className='idade-cidade'>
@@ -158,7 +155,7 @@ export default function Home() {
                 <EventAvailableIcon fontSize='small' />
                 <label>IDADE</label>
               </div>
-              <p>22 Anos</p>
+              <p>24 Anos</p>
             </div>
 
             <div className='icone-idade'>
@@ -174,7 +171,7 @@ export default function Home() {
                 <ContactEmergencyIcon fontSize='small' />
                 <label>ESPECIALIDADE</label>
               </div>
-              <p>TI</p>
+              <p>Front-End</p>
             </div>
           </div>
           <div className='button-curriculo'>
@@ -216,6 +213,10 @@ export default function Home() {
             <div className='texto-icone-habilidade'>
               <h5>SASS</h5>
               <FaSass size={60} />
+            </div>
+            <div className='texto-icone-habilidade'>
+              <h5>TAILWIND</h5>
+              <SiTailwindcss size={60} />
             </div>
 
             <div className='texto-icone-habilidade'>
@@ -297,6 +298,9 @@ export default function Home() {
           <div className='tamanho-site-aide'>
             <a href="https://www.aidesolucoes.com.br">ACESSAR</a>
           </div>
+          <div className='tamanho-site-chopp'>
+            <a href="https://www.aidesolucoes.com.br">ACESSAR</a>
+          </div>
           <div className='tamanho-site-usina'>
             <a href="https://energeticasantahelena.com.br">ACESSAR</a>
           </div>
@@ -313,7 +317,7 @@ export default function Home() {
             <a>Atualmente</a>
             <a>Desenvolvedor Front-End</a>
             <b>Local: Pax Primavera </b>
-            <h7>Projetos de sistemas web, desenvolvimento de sites, suporte, teste de sistemas, treinamentos, usabilidade, e metodologias ágeis. </h7>
+            <h7>Projetos de sistemas web, desenvolvimento de sites, sistemas como agendamentos clínicos, cobranças, gestão financeira, suporte, teste de sistemas, treinamentos, usabilidade, e metodologias ágeis. </h7>
           </div>
           <div className='unidades'>
             <SupportAgentIcon sx={{ fontSize: 50 }} />
